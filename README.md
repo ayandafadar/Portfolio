@@ -18,7 +18,7 @@ Deployed via GitHub Pages.
 
 This portfolio is designed to be minimal and content-focused, with a strong emphasis on:
 
-- Clean dark UI  
+- Clean minimal dark UI  
 - Smooth micro-interactions  
 - Responsive layout  
 - Performance optimization  
