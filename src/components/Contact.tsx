@@ -27,10 +27,10 @@ export default function Contact() {
 
     try {
       await emailjs.send(
-        "service_m4gvc4c",
-        "template_en2qf09",
+        process.env.NEXT_PUBLIC_EMAILJS_SERVICE!,
+        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE!,
         form,
-        "TMX6gBsiHELhabUR5"
+        process.env.NEXT_PUBLIC_EMAILJS_PUBLIC!
       )
 
       alert('Message sent successfully!')
