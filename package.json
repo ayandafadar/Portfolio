@@ -2,14 +2,11 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ayandafadar.github.io/Portfolio",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "predeploy": "next build",
-    "deploy": "gh-pages -d out"
+    "lint": "next lint"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
