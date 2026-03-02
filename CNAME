@@ -1,1 +1,3 @@
-ayandafadar.tech
+Type: CNAME
+Host: www
+Value: cname.vercel-dns.com
