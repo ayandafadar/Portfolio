@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Portfolio
 
 This is my personal portfolio website built to showcase my work, skills, and experience as a developer.
@@ -80,3 +81,6 @@ All integrations (analytics and email) are handled client-side, so no backend is
 ## Version
 
 **v1.0** — Initial portfolio release
+=======
+
+>>>>>>> 2d489a289a7d1a9834725e2d533171e521e1df89
