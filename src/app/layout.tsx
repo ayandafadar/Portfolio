@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
-import Script from 'next/script'
 import './globals.css'
 import { Analytics } from "@vercel/analytics/react"
 
@@ -19,15 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark" suppressHydrationWarning>
       <body className={`${inter.className} bg-black text-white antialiased`}>
-        
         {children}
-
-        <Script
-          data-goatcounter="https://ayan.goatcounter.com/count"
-          src="https://gc.zgo.at/count.js"
-          strategy="afterInteractive"
-        />
-
         <Analytics />
       </body>
     </html>
