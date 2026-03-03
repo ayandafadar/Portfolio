@@ -9,7 +9,7 @@ export default function Footer() {
         </div>
 
         <span className="text-xs tabular-nums text-neutral-500 sm:text-sm">
-          2026
+          <p>© {new Date().getFullYear()}</p>
         </span>
       </div>
     </footer>
