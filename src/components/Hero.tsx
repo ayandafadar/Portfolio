@@ -17,15 +17,15 @@ export default function Hero() {
       setTimeout(() => {
         setWordIndex((prev) => (prev + 1) % rotatingWords.length)
         setIsAnimating(false)
-      }, 800)
-    }, 6500)
+      }, 600)
+    }, 4500)
 
     const symbolInterval = setInterval(() => {
       setIsSymbolAnimating(true)
       setTimeout(() => {
         setSymbolIndex((prev) => (prev + 1) % rotatingSymbols.length)
         setIsSymbolAnimating(false)
-      }, 500)
+      }, 450)
     }, 2000)
 
     return () => {
@@ -35,7 +35,8 @@ export default function Hero() {
   }, [])
 
   return (
-    <section id="hero" className="relative z-10 flex min-h-screen flex-col items-center justify-center px-4 pb-24 pt-16 sm:px-6">
+    <section id="hero" 
+      className="relative z-10 flex min-h-screen flex-col items-center justify-start px-4 pt-16 pb-20 sm:justify-center sm:pt-16 sm:px-6">
       <div className="max-w-2xl text-center">
         {/* Profile Picture */}
         <div className="mb-8 flex justify-center">

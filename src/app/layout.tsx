@@ -18,17 +18,16 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="dark" suppressHydrationWarning>
-      <head>
+      <body className={`${inter.className} bg-black text-white antialiased`}>
+        
+        {children}
+
         <Script
           data-goatcounter="https://ayan.goatcounter.com/count"
           src="https://gc.zgo.at/count.js"
           strategy="afterInteractive"
         />
-      </head>
-      <body
-        className={`${inter.className} bg-black text-white antialiased`}
-      >
-        {children}
+
         <Analytics />
       </body>
     </html>

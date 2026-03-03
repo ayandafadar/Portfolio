@@ -7,10 +7,13 @@ export default function Footer() {
   const [viewCount, setViewCount] = useState<number | null>(null)
 
   useEffect(() => {
-    fetch('https://ayan.goatcounter.com/counter/TOTAL.json')
-      .then((res) => res.json())
+    fetch('https://ayan.goatcounter.com/counter/%2F.json')
+      .then((res) => {
+        if (!res.ok) throw new Error('Failed')
+        return res.json()
+      })
       .then((data) => {
-        setViewCount(parseInt(data.count))
+        setViewCount(Number(data.count) || 0)
       })
       .catch(() => {
         setViewCount(0)
