@@ -76,8 +76,7 @@ const categories = [
     { name: 'GitHub', icon: SiGithub, darkAware: true },
     { name: 'GitHub Actions', icon: SiGithubactions, color: '#2088FF' },
     { name: 'Docker', icon: SiDocker, color: '#2496ED' },
-    { name: 'AWS', icon: SiAmazonwebservices, color: '#FF9900' },
-    { name: 'Figma', icon: SiFigma, color: '#8E66E4' }
+    { name: 'AWS', icon: SiAmazonwebservices, color: '#FF9900' }
   ]
 }
 ]
