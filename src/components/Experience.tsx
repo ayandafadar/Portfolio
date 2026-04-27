@@ -5,6 +5,14 @@ import Section from './Section'
 
 const experiences = [
   {
+    type: 'work',
+    title: 'Software Developer Intern',
+    company: 'Prexpark',
+    period: '2025',
+    description:
+      'Worked on building and improving product features with a focus on responsive UI, API integration, and overall performance and reliability.',
+  },
+  {
     type: 'contribution',
     title: 'Open Source Contributor',
     company: 'GirlScript Summer of Code (GSSoC) 2025',

@@ -26,7 +26,7 @@ export default function Resume() {
 
           {/* Right side - Button */}
           <a
-              href="https://drive.google.com/file/d/1lYMsgp6Av_x7yIpWKkwifagLVmxScIL2/view?usp=sharing"
+              href="https://drive.google.com/file/d/1EQb09Sx44z6U4mZGkj3mLuP3YaKfLIsL/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="group inline-flex items-center gap-2 rounded-full bg-black dark:bg-white px-5 py-2.5 text-sm font-medium text-white dark:text-black transition-all duration-200 hover:bg-neutral-800 dark:hover:bg-neutral-200 sm:px-6 sm:py-3"

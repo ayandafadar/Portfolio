@@ -20,6 +20,22 @@ const projects = [
     image: '/images/cardialink.png',
     githubUrl: 'https://github.com/ayandafadar/CardiaLink',
   },
+  {
+    title: 'CodeLeaf Local',
+    description: 'A local-first developer utility focused on clean workflows, fast iteration, and a practical interface for day-to-day coding tasks.',
+    tags: ['TypeScript', 'React', 'Node.js', 'LanceDB', 'Tree-sitter', 'Vector Embeddings'],
+    image: '/images/codeleaf-local.png',
+    liveUrl: '#',
+    githubUrl: '#',
+  },
+  {
+    title: 'WaveID',
+    description: 'A co-developed cross-platform mobile application built using Flutter and Firebase that enables secure, proximity-based attendance marking using audio token transmission.',
+    tags: ['Flutter', 'Firebase', 'Dart', 'JavaScript'],
+    image: '/images/waveid.png',
+    liveUrl: 'https://wave-id-website.vercel.app',
+    githubUrl: 'https://github.com/ayandafadar/WaveID',
+  },
 ]
 
 export default function Projects() {
